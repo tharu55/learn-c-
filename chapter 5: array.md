@@ -231,6 +231,14 @@ It is mainly used for tables and matrices.
 
 ---
 
+## Rules of Arrays
+
+- All elements must have the same data type.
+- The index always starts from 0.
+- The last index is size - 1.
+- Array size should be positive.
+- Elements are stored continuously in memory.
+
 # Important Points
 
 * An array stores multiple values.
@@ -240,6 +248,17 @@ It is mainly used for tables and matrices.
 * Each value in an array is called an **element**.
 
 ---
+
+## Learning Objectives
+
+
+- Understand what an array is.
+- Declare and initialize arrays.
+- Access array elements using an index.
+- Take input and display array elements.
+- Use loops with arrays.
+- Find the sum, largest, and smallest elements.
+- Understand the difference between 1D and 2D arrays.
 
 # Summary
 
