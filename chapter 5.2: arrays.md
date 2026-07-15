@@ -146,3 +146,127 @@ Traversal is usually done using:
 
 ---
 
+# 7. Searching in an Array
+
+Searching means finding whether a value exists in an array.
+
+Example:
+
+```
+Array:
+10 20 30 40 50
+
+Search:
+30
+
+Result:
+Found
+```
+
+---
+
+# 8. Updating Array Elements
+
+Array values can be changed.
+
+```cpp
+marks[2]=100;
+```
+
+Now
+
+```
+85 90 100 88 95
+```
+
+---
+
+# 9. Copying Arrays
+
+In C++, one array cannot be directly assigned to another.
+
+Wrong
+
+```cpp
+arr2 = arr1;
+```
+
+Instead, copy each element using a loop.
+
+---
+
+# 10. Passing Arrays to Functions
+
+Arrays can be passed as function parameters.
+
+Example
+
+```cpp
+void display(int arr[], int size)
+```
+
+This topic becomes important when learning **Functions**.
+
+---
+
+# 11. Out-of-Bounds Access ⭐⭐⭐
+
+This is one of the most important concepts.
+
+Example
+
+```cpp
+marks[10];
+```
+
+If the array size is 5,
+
+this index is **invalid**.
+
+Possible problems:
+
+* Garbage value
+* Wrong output
+* Program crash
+* Undefined Behaviour
+
+---
+
+# 12. Difference Between Array and Variable
+
+| Variable               | Array                     |
+| ---------------------- | ------------------------- |
+| Stores one value       | Stores multiple values    |
+| One memory location    | Multiple memory locations |
+| One name for one value | One name for many values  |
+
+---
+
+# 13. Where Arrays Are Used
+
+Arrays are used in:
+
+* Student management systems
+* Banking applications
+* Hospital management
+* Image processing
+* Games
+* Search engines
+* Artificial Intelligence
+* Machine Learning
+* Data Structures
+* Operating Systems
+
+---
+
+# 14. Limitations of Arrays
+
+* Fixed size
+* Same data type only
+* Difficult to insert/delete elements
+* Memory may be wasted
+* No automatic resizing
+
+---
+
+
